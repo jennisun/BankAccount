@@ -23,6 +23,15 @@ public class BankAccount {
   }
 
 
+  public boolean deposit(double amount){
+    if (amount >= 0) {
+      balance += amount;
+      return true;
+    }
+    else return false;
+  }
+
+
 
 
 
