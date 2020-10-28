@@ -7,9 +7,9 @@ public class Tester {
     System.out.println(first.getAccountID());
     System.out.println(first.deposit(100));
     System.out.println(first.getBalance());
-    System.out.println(first.withdraw(500));
+    System.out.println(first.withdraw(20));
     System.out.println(first.getBalance());
-
+    System.out.println(first.toString());
 
   }
 }
