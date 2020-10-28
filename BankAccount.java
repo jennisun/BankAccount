@@ -40,12 +40,8 @@ public class BankAccount {
     else return false;
   }
 
-
-
-
-
-
-
-
+  public String toString() {
+    return accountID + "\t" + balance;
+  }
 
 }
